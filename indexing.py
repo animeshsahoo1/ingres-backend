@@ -7,7 +7,7 @@ from langchain_qdrant import QdrantVectorStore
 
 load_dotenv()
 
-pdf_path = Path(__file__).parent.parent.parent / "static" / "GEC_User_manual.pdf"
+pdf_path = Path(__file__).parent / "static" / "GEC_User_manual.pdf"
 
 # Loading
 loader = PyPDFLoader(file_path=pdf_path)
