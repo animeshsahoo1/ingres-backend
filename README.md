@@ -1,0 +1,1 @@
+Run command --> python -m uv run uvicorn app.main:app --reload
